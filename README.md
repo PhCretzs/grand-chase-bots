@@ -29,6 +29,9 @@ grand-chase-bots/
 ## 🤖 Projetos
 
 ### vision-bot
+
+<video src="https://github.com/PhCretzs/grand-chase-bots/raw/refs/heads/main/teste%20bot.mp4" width="100%" controls></video>
+
 O projeto mais recente e técnico da coleção. Captura a tela do jogo em tempo real e usa OpenCV para identificar o personagem (pixel vermelho `#FF0000`) e monstros (pixel amarelo `#FFD200`) por detecção de cor. Um loop principal roda a captura e reconhecimento, enquanto uma thread separada executa os comandos de teclado baseada nas posições detectadas.
 
 **Principais tecnologias:** `opencv-python`, `mss`, `pywin32`, `threading`, `pynput`
